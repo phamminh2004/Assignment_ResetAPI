@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AND_Assignment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="login">Bạn đã có tài khoản? <b>Đăng nhập</b></string>
+    <string name="reg">Bạn chưa có tài khoản? <b>Đăng ký</b></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>                

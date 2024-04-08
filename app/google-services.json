@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "488777460912",
+    "project_id": "and103-133f2",
+    "storage_bucket": "and103-133f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488777460912:android:8c3d49a6b27103ac06df75",
+        "android_client_info": {
+          "package_name": "fpoly.minhpt.assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzj319LV5qtxZ6yH3QwMNBP4K01oh9PGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

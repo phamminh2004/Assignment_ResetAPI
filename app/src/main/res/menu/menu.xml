@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_bill"
+        android:title="Đơn hàng đã mua" />
+
+    <group android:checkableBehavior="single">
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/addAccount"
+                    android:icon="@drawable/ic_add"
+                    android:title="Tạo tài khoản nhân viên"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/changePassword"
+                    android:icon="@drawable/ic_key"
+                    android:title="Đổi mật khẩu" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Đăng xuất" />
+            </menu>
+        </item>
+    </group>
+</menu>
