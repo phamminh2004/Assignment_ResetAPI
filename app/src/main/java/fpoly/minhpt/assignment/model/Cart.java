@@ -9,7 +9,6 @@ public class Cart implements Serializable {
     public String Image;
     public int Quantity;
     public String ProductID;
-
     public Cart() {
     }
 

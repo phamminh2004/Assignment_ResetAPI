@@ -57,7 +57,10 @@ public class UserFragment extends Fragment {
                             id = u._id;
                             binding.edtEmail.setText(u.email);
                             binding.edtName.setText(u.name);
-                            binding.edtDate.setText(sdf.format(u.date));
+                            if (u.date != null) {
+                                binding.edtDate.setText(sdf.format(u.date));
+                            } else {
+                            }
                             binding.edtAddress.setText(u.address);
                             binding.edtPhone.setText(u.phone);
                             if (u.gender != null) {
